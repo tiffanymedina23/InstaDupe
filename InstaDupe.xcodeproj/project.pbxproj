@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A46B2DE252BCFDE00853873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A46B2DD252BCFDE00853873 /* AppDelegate.swift */; };
 		3A46B2E0252BCFDE00853873 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A46B2DF252BCFDE00853873 /* SceneDelegate.swift */; };
-		3A46B2E2252BCFDE00853873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A46B2E1252BCFDE00853873 /* ViewController.swift */; };
 		3A46B2E5252BCFDE00853873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A46B2E3252BCFDE00853873 /* Main.storyboard */; };
 		3A46B2E7252BCFE400853873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A46B2E6252BCFE400853873 /* Assets.xcassets */; };
 		3A46B2EA252BCFE400853873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A46B2E8252BCFE400853873 /* LaunchScreen.storyboard */; };
@@ -46,7 +45,6 @@
 		3A46B2DA252BCFDE00853873 /* InstaDupe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaDupe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A46B2DD252BCFDE00853873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A46B2DF252BCFDE00853873 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A46B2E1252BCFDE00853873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A46B2E4252BCFDE00853873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A46B2E6252BCFE400853873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A46B2E9252BCFE400853873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,15 +124,14 @@
 			children = (
 				3A46B2DD252BCFDE00853873 /* AppDelegate.swift */,
 				3A46B2DF252BCFDE00853873 /* SceneDelegate.swift */,
-				3A46B2E1252BCFDE00853873 /* ViewController.swift */,
 				3A46B2E3252BCFDE00853873 /* Main.storyboard */,
-				3A5C46DF252C1AA200728FDA /* PostTableViewCell.swift */,
-				3A994E32252BEEC0002001B2 /* cameraViewController.swift */,
 				3A46B2E6252BCFE400853873 /* Assets.xcassets */,
 				3A46B2E8252BCFE400853873 /* LaunchScreen.storyboard */,
 				3A46B2EB252BCFE400853873 /* Info.plist */,
 				3A994E2E252BDDE0002001B2 /* LoginViewController.swift */,
 				3A994E30252BDDEC002001B2 /* FeedViewController.swift */,
+				3A994E32252BEEC0002001B2 /* cameraViewController.swift */,
+				3A5C46DF252C1AA200728FDA /* PostTableViewCell.swift */,
 			);
 			path = InstaDupe;
 			sourceTree = "<group>";
@@ -422,7 +419,6 @@
 				3A5C46E0252C1AA200728FDA /* PostTableViewCell.swift in Sources */,
 				3A994E2F252BDDE0002001B2 /* LoginViewController.swift in Sources */,
 				3A994E33252BEEC0002001B2 /* cameraViewController.swift in Sources */,
-				3A46B2E2252BCFDE00853873 /* ViewController.swift in Sources */,
 				3A994E31252BDDEC002001B2 /* FeedViewController.swift in Sources */,
 				3A46B2DE252BCFDE00853873 /* AppDelegate.swift in Sources */,
 				3A46B2E0252BCFDE00853873 /* SceneDelegate.swift in Sources */,
