@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A11AC962535316B005AA798 /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A11AC952535316B005AA798 /* commentCell.swift */; };
 		3A46B2DE252BCFDE00853873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A46B2DD252BCFDE00853873 /* AppDelegate.swift */; };
 		3A46B2E0252BCFDE00853873 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A46B2DF252BCFDE00853873 /* SceneDelegate.swift */; };
 		3A46B2E5252BCFDE00853873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A46B2E3252BCFDE00853873 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		2E572593AE065DB59DBD9B44 /* Pods-InstaDupe-InstaDupeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaDupe-InstaDupeUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaDupe-InstaDupeUITests/Pods-InstaDupe-InstaDupeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A11AC952535316B005AA798 /* commentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentCell.swift; sourceTree = "<group>"; };
 		3A46B2DA252BCFDE00853873 /* InstaDupe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaDupe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A46B2DD252BCFDE00853873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A46B2DF252BCFDE00853873 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				3A46B2DD252BCFDE00853873 /* AppDelegate.swift */,
 				3A46B2DF252BCFDE00853873 /* SceneDelegate.swift */,
 				3A46B2E3252BCFDE00853873 /* Main.storyboard */,
+				3A11AC952535316B005AA798 /* commentCell.swift */,
 				3A46B2E6252BCFE400853873 /* Assets.xcassets */,
 				3A46B2E8252BCFE400853873 /* LaunchScreen.storyboard */,
 				3A46B2EB252BCFE400853873 /* Info.plist */,
@@ -417,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A5C46E0252C1AA200728FDA /* PostTableViewCell.swift in Sources */,
+				3A11AC962535316B005AA798 /* commentCell.swift in Sources */,
 				3A994E2F252BDDE0002001B2 /* LoginViewController.swift in Sources */,
 				3A994E33252BEEC0002001B2 /* cameraViewController.swift in Sources */,
 				3A994E31252BDDEC002001B2 /* FeedViewController.swift in Sources */,
